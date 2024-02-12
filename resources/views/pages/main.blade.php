@@ -13,8 +13,9 @@
 
         <!-- Styles -->
         @yield('css-links')
+        @yield('css-code')
     </head>
-    <body class="antialiased">
+    <body class="antialiased bg-light">
         <!-- header topbar -->
         <header class="bg-dark">
             @include('layout.partials.header')
@@ -35,8 +36,8 @@
         </div>
 
         <!-- main javascript -->
-        <link href="{{ asset('js/jquery/jquery-3.7.1.min.js')}}" rel="stylesheet" />
-        <link href="{{ asset('css/bootstrap/bootstrap.min.css')}}" rel="stylesheet" />
+        <script src="{{ asset('js/jquery/jquery-3.7.1.min.js')}}"></script>
+        <script src="{{ asset('js/bootstrap/bootstrap.bundle.min.js')}}"></script>
         
         @yield('js-links')
         @yield('js-code')

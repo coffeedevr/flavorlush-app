@@ -2,7 +2,7 @@
     <div class="container-fluid ms-5 me-5 d-flex justify-content-between">
         <div class="navbar-brand">
             <a class="navbar-brand text-bg-dark" href="#">
-                <img src={{ asset('logo.png') }} alt="Bootstrap" width="" height="50">
+                <img src={{ asset('logo.png') }} alt="Bootstrap" width="" height="70">
             </a>
             <span class="navbar-text text-light">
                 Every cook's repository!

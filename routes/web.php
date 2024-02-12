@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('pages.dashboard');
 });
+
+Route::get('/submit-recipe', function () {
+    return view('recipes.submit_recipe');
+});
+

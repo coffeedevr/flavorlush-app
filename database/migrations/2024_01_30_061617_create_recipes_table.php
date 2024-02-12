@@ -14,7 +14,9 @@ return new class extends Migration
         Schema::create('recipes', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->recipeName();
+            $table->string('recipeName');
+            $table->string('instructions');
+            $table->unsignedInteger('likes')->default(0);
         });
     }
 
